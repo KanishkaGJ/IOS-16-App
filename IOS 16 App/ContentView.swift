@@ -40,6 +40,10 @@ struct ContentView: View {
                 Text("Enter a valid number!")
             }
             
+            HStack{
+                Image(systemName: "applewatch")
+                    .font(.title)
+            }
             
         }
         .padding()
